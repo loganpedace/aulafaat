@@ -1,0 +1,22 @@
+.titulo{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    
+}
+
+.paragrafo{
+    color:black;
+    font-weight: 900;
+    font-size: larger;
+    font-family: Helvetica, sans-serif;
+    text-align:inherit;
+    
+    
+}
+.teste2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 800;
+     vertical-align: text-top;
+     
+}
