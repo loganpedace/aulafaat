@@ -14,14 +14,17 @@
     
     
 }
-.lista{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-weight: 800;
-     vertical-align: text-top;
-     
+.outro{
+    display: flex;
 }
 
-a{
-    display: grid;
-
+.tamanho{
+    width:194px ;
+    height:259px ;
+    margin: 5px;
+}
+.teste3{
+ width: 2px;
+ height: 2px;
+ color: #ffffff;
 }
