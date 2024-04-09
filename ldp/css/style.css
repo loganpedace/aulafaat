@@ -14,13 +14,18 @@
     
     
 }
-
+.vamo{
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+}
 
 .tamanho{
     width:194px ;
     height:259px ;
     margin: 5px;
 }
+
 .teste3{
  width: 2px;
  height: 2px;
@@ -30,6 +35,4 @@
     display: flex;
 }
 
-.lista{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
