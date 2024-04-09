@@ -14,9 +14,7 @@
     
     
 }
-.outro{
-    display: flex;
-}
+
 
 .tamanho{
     width:194px ;
@@ -27,4 +25,11 @@
  width: 2px;
  height: 2px;
  color: #ffffff;
+}
+ .junçao{
+    display: flex;
+}
+
+.lista{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
