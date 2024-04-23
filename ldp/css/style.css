@@ -37,8 +37,10 @@
  height: 2px;
  color: #ffffff;
 }
- .junçao{
+.junçao{
     display: flex;
 }
 
-
+.fundo{
+    background-color: rgb(55, 48, 92);
+}
