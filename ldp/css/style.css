@@ -41,7 +41,15 @@
     display: flex;
 }
 
-.fundo{
+body{
     background-color: rgb(55, 48, 92);
 }
 
+/* Estilos para celulares */
+@media (min-width: 360px) and (max-width: 800px) {
+   .tamanho2{
+    width: 360px !important;
+    height: 260px !important;
+    
+   }
+}
