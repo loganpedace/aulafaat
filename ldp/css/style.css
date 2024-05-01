@@ -1,7 +1,7 @@
 .titulo{
     color:blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     
 }
 
@@ -23,8 +23,11 @@
 .tamanho{
     width:194px ;
     height:259px ;
-    margin: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    
 }
+
 .tamanho2{
     width: 648px;
     height: 364px;
