@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(68, 68, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imagens{
+    width: 194px;
+    height: 260px;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.sub_texto{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+div{
+    float: left;
+    text-align: center;
+}
