@@ -7,6 +7,8 @@ body{
     height: 260px;
     margin: 15px;
     margin-top: 30px;
+    border-radius:10px;
+    
 }
 
 .sub_texto{
@@ -18,4 +20,6 @@ body{
 div{
     float: left;
     text-align: center;
+    margin-left: 16px;
 }
+
