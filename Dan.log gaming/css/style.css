@@ -27,6 +27,7 @@ body {
     font-size: 13px;
     font-weight: 600;
     margin-top: -10px;
+    
 }
 
 .divisão {
@@ -72,5 +73,86 @@ body {
 .linhas {
     word-wrap: break-word;
     overflow-wrap: break-word;
+
+}
+
+.fotos2{
+    display: none;
+}
+
+.barra{
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+}
+
+#entradapesquisa{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#sugestao{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow: auto;
+    display: none;
+}
+
+#sugestao li{
+   padding: 10px;
+   cursor: pointer;
+}
+
+#sugestao li:hover{
+    background-color: #f0f0f0;
+}
+
+
+@media (min-width: 360px) and (max-width: 942px) {
+   .imagens{
+    margin-left: 70px;
+    }
+
+    .titulo{
+        font-size: 25px;
+        margin-left: -400px;
+    }
+
+    .textos {
+        text-align: center;
+        text-align: justify;
+        display: flex;
+        word-wrap: break-word;
+        margin-right: 20px;
+        margin-left: 10px;
+        font-size: large;
+}
+
+.fotos{
+    display: none;
+}
+
+.fotos2{
+  display: block;
+  height: 200px;
+  margin-left: -6px;
+}
+
+.titulo{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.sub_texto {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 52px;
+}
+
 
 }
