@@ -1,35 +1,76 @@
-body{
-    background-color: rgb(68, 68, 128);
+body {
+    background-color: rgb(44, 26, 110);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .imagens {
     width: 194px;
     height: 260px;
     margin: 15px;
     margin-top: 30px;
-    border-radius:10px;
-    
+    border-radius: 10px;
+
 }
 
-.lista{
+.lista {
     margin-top: 30px;
 
 }
 
-.alinha-P{
+.alinha-P {
     text-align: left;
-    
+
+
 }
 
-.sub_texto{
+.sub_texto {
     font-size: 13px;
     font-weight: 600;
     margin-top: -10px;
 }
 
-div{
+.divisão {
     float: left;
     text-align: center;
     margin-left: 16px;
 }
 
+.textos {
+    text-align: center;
+    text-align: justify;
+    display: flex;
+    word-wrap: break-word;
+    margin-right: 140px;
+    margin-left: 140px;
+    font-size: larger;
+}
+
+.fotos{
+    width: 780px;
+}
+
+.titulo{
+    font-size: 35px;
+}
+
+.fonte{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 352px;
+}
+
+
+
+.zoomImagem {
+    transition: transform 0.5s ease;
+}
+
+.zoomImagem.zoomed {
+    transform: scale(1.05);
+}
+
+.linhas {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}
