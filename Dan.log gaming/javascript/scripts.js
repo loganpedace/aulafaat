@@ -1,3 +1,4 @@
+/* animação nas imagens */
 document.addEventListener('DOMContentLoaded', () => {
   const images = document.getElementsByClassName('zoomImagem');
 
@@ -11,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 });
+
+/* barra de pesquisa */
 
 document.addEventListener("DOMContentLoaded", function() {
   const entradapesquisa = document.getElementById("entradapesquisa");
