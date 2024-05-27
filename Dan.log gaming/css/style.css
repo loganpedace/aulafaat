@@ -12,6 +12,20 @@ body {
 
 }
 
+.icones{
+    width: 40px;
+    height: 40px; 
+    margin-top: 300px;
+    margin-left: -400px; 
+}
+
+.icones2{
+    width: 40px;
+    height: 40px; 
+    margin-top: 300px;
+    margin-left: -340px; 
+}
+
 .lista {
     margin-top: 30px;
 
@@ -59,8 +73,6 @@ body {
     text-align: right;
     margin-right: 352px;
 }
-
-
 
 .zoomImagem {
     transition: transform 0.5s ease;
@@ -114,7 +126,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 @media (min-width: 360px) and (max-width: 942px) {
    .imagens{
     margin-left: 70px;
@@ -165,6 +176,4 @@ body {
     margin-right: 100px;
     display: none;
 }
-
-
 }
