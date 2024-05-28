@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Lista de sugestões
   const suggestions = [
-      "Assassins_Creed_Brotherhood",
-      "resident-evil-2 Remake",
-      "Grand theft auto 5",
-      "Horizon_Zero_Dawn",
-      "Heavy-rain",
-      "Detroid-Become-human",
-      "The_Walking_Dead,_Season_One",
+      "Assassins Creed: Brotherhood",
+      "Resident Evil 2 Remake",
+      "Grand Theft Auto V",
+      "Horizon Zero Dawn",
+      "Heavy Rain",
+      "DetroiT Become Human",
+      "The Walking Dead Season One",
   ];
 
   entradapesquisa.addEventListener("input", function() {
