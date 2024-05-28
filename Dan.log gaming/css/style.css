@@ -1,29 +1,29 @@
 body {
-    background-color: rgb(44, 26, 110);
+    background-color: rgb(39, 48, 117);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .imagens {
     width: 194px;
     height: 260px;
-    margin: 15px;
-    margin-top: 30px;
+    margin: 17px;
+    margin-top: 33px;
     border-radius: 10px;
 
 }
 
-.icones{
+.icones {
     width: 40px;
-    height: 40px; 
+    height: 40px;
     margin-top: 300px;
-    margin-left: -400px; 
+    margin-left: -400px;
 }
 
-.icones2{
+.icones2 {
     width: 40px;
-    height: 40px; 
+    height: 40px;
     margin-top: 300px;
-    margin-left: -340px; 
+    margin-left: -340px;
 }
 
 .lista {
@@ -41,13 +41,14 @@ body {
     font-size: 13px;
     font-weight: 600;
     margin-top: -10px;
-    
+
 }
 
 .divisão {
     float: left;
     text-align: center;
     margin-left: 16px;
+    
 }
 
 .textos {
@@ -60,15 +61,19 @@ body {
     font-size: larger;
 }
 
-.fotos{
+.fotos {
     width: 780px;
 }
 
-.titulo{
+.video{
+    margin-left: 300px;
+}
+
+.titulo {
     font-size: 35px;
 }
 
-.fonte{
+.fonte {
     font-size: 15px;
     text-align: right;
     margin-right: 352px;
@@ -88,25 +93,25 @@ body {
 
 }
 
-.fotos2{
+.fotos2 {
     display: none;
 }
 
-.barra{
+.barra {
     position: relative;
     width: 300px;
     margin: 50px auto;
-    margin-top: -60px;
+    margin-top: -82px;
     margin-right: 100px;
 }
 
-#entradapesquisa{
+#entradapesquisa {
     width: 100%;
     padding: 10px;
     font-size: 16px;
 }
 
-#sugestao{
+#sugestao {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -117,21 +122,21 @@ body {
     background-color: white;
 }
 
-#sugestao li{
-   padding: 10px;
-   cursor: pointer;
+#sugestao li {
+    padding: 10px;
+    cursor: pointer;
 }
 
-#sugestao li:hover{
+#sugestao li:hover {
     background-color: #f0f0f0;
 }
 
 @media (min-width: 360px) and (max-width: 942px) {
-   .imagens{
-    margin-left: 70px;
+    .imagens {
+        margin-left: 70px;
     }
 
-    .titulo{
+    .titulo {
         font-size: 25px;
         margin-left: -400px;
     }
@@ -144,36 +149,36 @@ body {
         margin-right: 20px;
         margin-left: 10px;
         font-size: large;
-}
+    }
 
-.fotos{
-    display: none;
-}
+    .fotos {
+        display: none;
+    }
 
-.fotos2{
-  display: block;
-  height: 200px;
-  margin-left: -6px;
-}
+    .fotos2 {
+        display: block;
+        height: 200px;
+        margin-left: -6px;
+    }
 
-.titulo{
-    font-size: 35px;
-    margin-left: 20px;
-}
+    .titulo {
+        font-size: 35px;
+        margin-left: 20px;
+    }
 
-.sub_texto {
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: -10px;
-    margin-left: 52px;
-}
+    .sub_texto {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: -10px;
+        margin-left: 52px;
+    }
 
-.barra{
-    position: relative;
-    width: 300px;
-    margin: 50px auto;
-    margin-top: -60px;
-    margin-right: 100px;
-    display: none;
-}
+    .barra {
+        position: relative;
+        width: 300px;
+        margin: 50px auto;
+        margin-top: -60px;
+        margin-right: 100px;
+        display: none;
+    }
 }
