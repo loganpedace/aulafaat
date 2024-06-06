@@ -138,12 +138,12 @@ body {
 
 @media (min-width: 360px) and (max-width: 942px) {
     .imagens {
-        margin-left: 70px;
+        margin-left: 99px;
     }
 
     .titulo {
         font-size: 10px;
-        margin-left: 01px;
+        margin-right: 20px; 
     }
 
     .textos {
@@ -151,8 +151,8 @@ body {
         text-align: justify;
         display: flex;
         word-wrap: break-word;
-        margin-right: 359.8px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: -5px;
         font-size: 20px;
     }
 
@@ -163,7 +163,13 @@ body {
     .fotos2 {
         display: block;
         height: 200px;
-        margin-left: -6px;
+        margin-left: 25px;
+    }
+
+    .video{
+        margin-left: 50px;
+        margin-top: 15px;
+       height: 200px;
     }
 
     .titulo {
@@ -186,4 +192,13 @@ body {
         margin-right: 100px;
         display: none;
     }
+     
+    .icones{
+        display: none;
+    }
+
+    .icones2{
+        display: none;
+    }
+
 }
