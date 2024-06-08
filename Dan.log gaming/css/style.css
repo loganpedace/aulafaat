@@ -9,7 +9,14 @@ body {
     margin: 17px;
     margin-top: 33px;
     border-radius: 10px;
+}
 
+.imagens2{
+width: 194px;
+height: 260px;
+margin: 17px;
+margin-top: 33px;
+border-radius: 10px;
 }
 
 .icones {
@@ -67,11 +74,13 @@ body {
 }
 
 .video{
-    margin-left: 350px;
+    margin-left: 450px;
+    margin-top: 20px;
 }
 
 .video2{
-    margin-left: -30px;
+    margin-left: 490px;
+    height: 300px;
 }
 
 .titulo {
@@ -138,6 +147,10 @@ body {
 
 @media (min-width: 360px) and (max-width: 942px) {
     .imagens {
+        margin-left: 70px;
+    }
+
+    .imagens2 {
         margin-left: 99px;
     }
 
@@ -160,16 +173,17 @@ body {
         display: none;
     }
 
-    .fotos2 {
-        display: block;
-        height: 200px;
-        margin-left: 25px;
-    }
-
     .video{
         margin-left: 50px;
         margin-top: 15px;
        height: 200px;
+       
+    }
+
+    .video2{
+        margin-left: 60px;
+        margin-top: 15px;
+       height: 150px;
     }
 
     .titulo {
