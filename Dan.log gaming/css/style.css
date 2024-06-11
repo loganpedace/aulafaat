@@ -44,7 +44,7 @@ body {
 
 }
 
-.divisão {
+.divisao {
     float: left;
     text-align: center;
     margin-left: 16px;
@@ -141,8 +141,8 @@ body {
     }
 
     .titulo {
-        font-size: 25px;
-        margin-left: -400px;
+        font-size: 10px;
+        margin-left: 01px;
     }
 
     .textos {
@@ -150,9 +150,9 @@ body {
         text-align: justify;
         display: flex;
         word-wrap: break-word;
-        margin-right: 20px;
-        margin-left: 10px;
-        font-size: large;
+        margin-right: 359.8px;
+        margin-left: 15px;
+        font-size: 20px;
     }
 
     .fotos {
